@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #e0e1dd;
+    background: #0d1b2a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #00102e;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e0e1dd;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #555;
+}
+
+section {
+    padding: 50px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.ibb.co/2YCrsHD/black-bg-people.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.5em;
+}
+
+#about {
+    background: #0d1b2a;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #e0e1dd;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #e0e1dd;
+    text-align: center;
+}
+
+.experience-list, .skills-list, .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.experience, .skill, .service {
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.experience h3, .skill h3, .service h3 {
+    margin-bottom: 10px;
+    color: #e0e1dd;
+}
+
+.skill i, .service i {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #415a77;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #415a77;
+    color: #e0e1dd;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #778da9;
+    color: #0d1b2a;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e0e1dd;
+    color: #0d1b2a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1b263b;
+    color: #e0e1dd;
+}
